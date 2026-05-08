@@ -9,8 +9,8 @@
 function login(){
 
     // 正確帳密
-    const correctUsername = "1005";
-    const correctPassword = "1005";
+    const correctUsername = "甲豪";
+    const correctPassword = "gayhao";
 
     // 使用者輸入
     const username = document.getElementById("username").value;
@@ -26,7 +26,7 @@ function login(){
 
     }else{
 
-        document.getElementById("error").innerText = "帳密提示:出發日期4碼";
+        document.getElementById("error").innerText = "帳:中,密:英";
 
     }
 
@@ -74,10 +74,10 @@ html {
 <div class="one">九州9天8夜</div>
 <div class="two">
 <label for="username" ; style="background-color:aqua;"><strong>帳號</strong></label>
-<input type="text" id="username" style="font-size:80%;position: relative;bottom: 1px;" placeholder="工號"; >
+<input type="text" id="username" style="font-size:80%;position: relative;bottom: 1px;" placeholder="家豪小名"; >
 <br>
 <label for="password" style="background-color:aqua;"><strong>密碼</strong></label>
-<input type="password" id="password"  style="font-size:80%; " placeholder="工號">
+<input type="password" id="password"  style="font-size:80%; " placeholder="家豪小名">
 <br>
 
 <button onclick="login()" style="background-color: brown;color: yellowgreen;">
