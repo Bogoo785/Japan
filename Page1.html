@@ -10,21 +10,46 @@
             font-family: 'Courier New', Courier, monospace;
             
         }
+    img{
+       width:10%;
+       max-width: 400px;
+       position: relative;
+       left:150px ;
+       top:20px;
+   
+   
+       
+    }
+    .img1{
+      
+     /* 或 float: left */
+    vertical-align:middle; /* 讓圖片與文字垂直置中 */
+   /* 限制圖片顯示的寬度 */
+    height: auto; /* 高度等*/
+    width:100px ;
+    
+    
+
+
+    }
        
     
     </style>  
 </head>
 <body>
 <div style="background-color: aqua;">Day1</div>
+
 <h1 class="h1">
     <ol>
         <li>KHH to FUK 15:30-19:20</li>
-        <li>博多to鹿兒島 21:24-22:44</li>
-        <li>晚餐隨便吃</li>
+        <li>博多to鹿兒島 21:24-22:44 </li>
+        <li>
+           晚餐隨便吃
+            <img src="air.png" > 
+            </li>
     </ol>
-    
+      
 </h1> 
-
 
 <div style="background-color:blueviolet;">Day2</div>
 <h1 class="h1">
@@ -43,9 +68,11 @@
 <h1 class="h1">
     <ol>
         <li>租車-渡輪</li>
-        <li>渡輪-櫻島</li>
-        <li>櫻島-鹿兒島</li>
+        <li><span>渡輪-櫻島</span>
+            <img src="island.jpg" class="img1"></li>
+        <li>櫻島-鹿兒島 </li>
     </ol>
+    
 </h1>
 <div style="background-color: yellow;">Day5</div>
 <h1 class="h1">
