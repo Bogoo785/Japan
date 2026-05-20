@@ -18,6 +18,7 @@
        top:100px;
         animation: slide-right;
         animation-duration: 3s;
+        animation-iteration-count: infinite;
    
        
     }
@@ -28,9 +29,16 @@
    /* 限制圖片顯示的寬度 */
     height: auto; /* 高度等*/
     width:100px ;
-    position: absolute;
+    /* position: absolute;
     left: 250px;
-    top:400px;
+    top:400px; */
+    vertical-align: middle;
+    float: right;
+    translate: -60px -20px;
+    
+    animation: rotate 0.5s infinite linear;
+    /* animation-duration: 3s;
+    animation-iteration-count: infinite; */
     }
    @keyframes slide-right{
     from {
@@ -40,7 +48,14 @@
         transform: translateX(100px);
     }
    }
-    
+    @keyframes rotate{
+        from{
+            rotate:0deg;
+        }
+        to{
+            rotate:360deg;
+        }
+    }
     </style>  
 </head>
 <body>
@@ -75,7 +90,7 @@
 <h1 class="h1">
     <ol>
         <li>租車-渡輪</li>
-        <li><span>渡輪-櫻島</span>
+        <li class="h2"><span>渡輪-櫻島</span>
             <img src="island.jpg" class="img1"></li>
         <li>櫻島-鹿兒島 </li>
     </ol>
