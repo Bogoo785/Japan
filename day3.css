@@ -1,0 +1,22 @@
+ body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f9f9f9; }
+        .day-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: relative; }
+        .header-area { display: flex; justify-content: center; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
+        h1 { color: #d32f2f; margin: 0; font-size: 1.8em; }
+        .btn-back { display: inline-block; padding: 8px 16px; background-color: #607d8b; color: #fff; text-decoration: none; border-radius: 4px; font-size: 0.9em; font-weight: bold; transition: background 0.3s; }
+        .btn-back:hover { background-color: #455a64; }
+        .subtitle { text-align: center; color: #555; margin-bottom: 30px; font-size: 1.1em; }
+        h2 { color: #333; margin-top: 0; }
+        .timeline { list-style-type: none; position: relative; padding: 0; }
+        .timeline::before { content: ''; position: absolute; top: 0; bottom: 0; left: 20px; width: 2px; background: #ccc; }
+        .timeline-item { position: relative; margin-bottom: 30px; padding-left: 50px; }
+        .timeline-time { font-weight: bold; color: #0288d1; font-size: 1.1em; }
+        .timeline-content { padding: 15px; background: #f0f4f8; border-radius: 5px; }
+        .price-tag { color: #e65100; font-weight: bold; }
+        .train-tag { background-color: #e1f5fe; color: #0288d1; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+        
+        /* 圖片容器樣式 */
+        .image-placeholder { margin-top: 12px; background: #fabbbb; border: 2px dashed #b0bec5; border-radius: 6px; text-align: center; padding: 0px; color: #555; }
+        .image-placeholder img { max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto; }
+        
+        .notes { margin-top: 20px; padding: 15px; border-left: 4px solid #d32f2f; background-color: #fff3e0; margin-bottom: 25px; }
+        .footer-area { text-align: center; border-top: 1px solid #eee; padding-top: 20px; }

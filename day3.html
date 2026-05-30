@@ -4,25 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>福岡9天8夜 - Day 3 指宿砂浴一日遊</title>
-    <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f9f9f9; }
-        .day-container { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: relative; }
-        .header-area { display: flex; justify-content: center; align-items: center; border-bottom: 2px solid #eee; padding-bottom: 10px; margin-bottom: 20px; }
-        h1 { color: #d32f2f; margin: 0; font-size: 1.8em; }
-        .btn-back { display: inline-block; padding: 8px 16px; background-color: #607d8b; color: #fff; text-decoration: none; border-radius: 4px; font-size: 0.9em; font-weight: bold; transition: background 0.3s; }
-        .btn-back:hover { background-color: #455a64; }
-        .subtitle { text-align: center; color: #555; margin-bottom: 30px; font-size: 1.1em; }
-        h2 { color: #333; margin-top: 0; }
-        .timeline { list-style-type: none; position: relative; padding: 0; }
-        .timeline::before { content: ''; position: absolute; top: 0; bottom: 0; left: 20px; width: 2px; background: #ccc; }
-        .timeline-item { position: relative; margin-bottom: 30px; padding-left: 50px; }
-        .timeline-time { font-weight: bold; color: #0288d1; font-size: 1.1em; }
-        .timeline-content { padding: 15px; background: #f0f4f8; border-radius: 5px; }
-        .price-tag { color: #e65100; font-weight: bold; }
-        .train-tag { background-color: #e1f5fe; color: #0288d1; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
-        .notes { margin-top: 20px; padding: 15px; border-left: 4px solid #d32f2f; background-color: #fff3e0; margin-bottom: 25px; }
-        .footer-area { text-align: center; border-top: 1px solid #eee; padding-top: 20px; }
-    </style>
+    <link rel="stylesheet"  href="day3.css">
 </head>
 <body>
 
@@ -72,12 +54,19 @@
                 </div>
             </li>
 
-            <!-- 5. 返回鹿兒島 -->
+            <!-- 5. 返回鹿兒島（已將圖片位置改到此處） -->
             <li class="timeline-item">
                 <div class="timeline-time"><time datetime="16:00">16:00</time></div>
                 <div class="timeline-content">
                     <h2>出發返回鹿兒島</h2>
                     <p>結束放鬆的指宿行程，搭乘 JR 列車（可安排下午班次的玉手箱號或普通列車）返回鹿兒島市區。</p>
+                    
+                    <!-- 📸 列車照片放置處 -->
+                    <div class="image-placeholder">
+                        
+                        <!-- 未來請把下面的 src="ibutusubo_return.jpg" 改成您實際的圖片路徑 -->
+                        <img src="train.png" alt="指宿之玉手箱號特急列車回程">
+                    </div>
                 </div>
             </li>
 
@@ -103,7 +92,7 @@
 
         <!-- 底部回目錄按鈕 -->
         <div class="footer-area">
-            <a href="catalog.html" class="btn-back">⬅ 返回行程總目錄</a>
+            <a href="index.html" class="btn-back">⬅ 返回行程總目錄</a>
         </div>
     </div>
 
