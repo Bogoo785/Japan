@@ -39,7 +39,7 @@
     
 }
 .box3{
-    background-color: aqua;
+    
     height: 60%;
     width: 100%;
 }
@@ -71,6 +71,10 @@
     writing-mode: vertical-lr;
     font-size:26px;
     align-items: center;
+}
+button{
+    background-color: beige;
+    border-radius: 0;
 }
 @media (min-width:768px){
     .content{
