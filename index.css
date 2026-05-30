@@ -1,4 +1,4 @@
- * {
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -17,8 +17,8 @@
 
         .container {
             text-align: center;
-            background: rgba(25, 37, 21,0.6);
-            
+            background: rgba(234, 25, 14, 0.5);
+           
             
             padding: 50px 30px;
             border-radius: 20px;
