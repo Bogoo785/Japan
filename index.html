@@ -1,28 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>九州9天8夜</title>
-    <link rel="stylesheet" href="index.css">
+    <title>九州 9天8夜 夢幻之旅</title>
+    <!-- 引入 Google Fonts 與 FontAwesome 圖示 -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+
+ <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<div class="container">
-    <div class="box"></div>
-    <div class="box1">
-       <div class="box2">
-        <p class="content">九州9天8夜</p>
-        
-        </div>
-        <div class="box3">
-        <button class="content2" onclick="log()"><p>一緒に出発しましょう<p></button>
-        <button class="content3" onclick="log1()"><p>一緒に出発するのはやめておきます</p></button>
-    
-        </div>
-    </div>
-    <div class="box"></div>
-    <script src="index.js" defer></script>
 
-</div>    
+    <div class="container">
+        <h1><span>九州</span> 夢幻之旅</h1>
+        <p class="subtitle">九天八夜・探索南國風情與溫泉秘境</p>
+
+        <div class="trip-details">
+            <div><i class="fa-solid fa-calendar-days"></i> 天數：9天8夜</div>
+            <div><i class="fa-solid fa-location-dot"></i> 目的地：福岡、鹿兒島</div>
+        </div>
+
+        <div class="countdown">
+            <i class="fa-solid fa-plane-departure"></i> 距離出發還有：<br>
+            <span id="timer">計算中...</span>
+        </div>
+
+        <a href="catalog.html" class="enter-btn">展開我的行程 <i class="fa-solid fa-circle-chevron-right"></i></a>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
