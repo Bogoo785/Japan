@@ -1,0 +1,75 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+     font-family: "Cherry Bomb One";
+     src:url(CherryBombOne-Regular.ttf);
+}
+
+.container{
+    display: flex;
+    
+}
+.box{
+    width:15%;
+    height: 100vh;
+    background-color: brown;
+    background-image: url(leaf4.jpg);
+    background-size: contain;
+}
+.box1{
+    width: 70%;
+ 
+    
+}
+.box2{
+    background-color: blue;
+    height: 40%;
+    width:100% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:end;
+    background-image: url(leaf.jpg);
+    background-size: cover;
+    background-position:left ;
+    
+    
+}
+.box3{
+    background-color: aqua;
+    height: 60%;
+    width: 100%;
+}
+.content{
+    font-size:clamp(26px,10vw,40px);
+    width: 80%;
+    font-style: italic;
+    font-family: "Cherry Bomb One";
+    background-color:rgba(255,255,100,1)
+}
+.box3{
+    display: flex;
+     
+
+}
+.content2{
+    width:50%;
+    writing-mode: vertical-lr;
+    font-size: 26px;
+    align-items:center;
+    
+    
+     
+
+
+}
+.content3{
+    width: 50%;
+    writing-mode: vertical-lr;
+    font-size:26px;
+    align-items: center;
+}
+
